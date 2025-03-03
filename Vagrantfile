@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
   # https://docs.vagrantup.com.
  
   # Every Vagrant development environment requires a box. You can search for
-  # boxes at https://portal.cloud.hashicorp.com/vagrant/discover
+  # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/bionic64"
   config.vm.box_version = "~> 20200304.0.0"
  
