@@ -8,9 +8,9 @@ class HelloApiView(APIView):
     def get(self, request, format=None):
         """Returns a list of APIView features"""
         an_apiview = [
-            'Uses HTTP methodss as function (get, poet, patch,delete)'
-            'Is similar to a traditional django view.'
-            'Gives you thee most control over your appliication project.'
+            'Uses HTTP methods as function (get, post, patch, delete)',
+            'Is similar to a traditional django view.',
+            'Gives you thee most control over your application project.',
             'Is mapped manually to URLs.',
         ]
         return Response({'message': 'Hello!', 'an_apiview': an_apiview})
