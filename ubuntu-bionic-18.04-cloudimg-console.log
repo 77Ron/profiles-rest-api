@@ -607,3 +607,4 @@ Ubuntu 18.04.6 LTS ubuntu-bionic ttyS0
 ubuntu-bionic login: [   45.589901] cloud-init[949]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:config' at Tue, 15 Apr 2025 10:13:18 +0000. Up 44.68 seconds.
 [   51.739660] cloud-init[1170]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:final' at Tue, 15 Apr 2025 10:13:24 +0000. Up 50.31 seconds.
 [   51.779328] cloud-init[1170]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 finished at Tue, 15 Apr 2025 10:13:25 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 51.67 seconds
+[[0;32m  OK  [0m] Started Daily apt upgrade and clean activities.
