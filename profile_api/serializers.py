@@ -21,8 +21,8 @@ class UserProfileSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         """Create and retun a new user."""
         user = models.UserProfile.objets.create_user(
-            email=validated_data['email']
-            name=validated_data['name']
+            email=validated_data['email'],
+            name=validated_data['name'],
             password=validated_data['password']
         )
 
