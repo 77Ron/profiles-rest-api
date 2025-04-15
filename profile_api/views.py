@@ -43,10 +43,10 @@ class HelloApiView(APIView):
         """Handle deleteing an object"""
         return Response({'method': 'DELETE'}) 
 
+
 class HelloViewSet(viewsets.ViewSet):
     """Test Api ViewSet"""
     serializer_class = serializers.HelloSerializer
-
 
     def list(self, request):
         """Return Hello message."""
@@ -75,7 +75,6 @@ class HelloViewSet(viewsets.ViewSet):
                             status=status.HTTP_400_BAD_REQUEST,
                             )
 
-
     def retrieve(self, request, pk=None):
         """Handle getting an object by its ID."""
 
@@ -90,7 +89,6 @@ class HelloViewSet(viewsets.ViewSet):
         """Handle updating part of an object."""
 
         return Response({'http_method': 'PATCH'})
-    
     
     def destroy(self, request, pk=None):
         """Handle removing an object."""
