@@ -110,8 +110,8 @@ class UserProfileViewSet(viewsets.ModelViewSet):
     filter_backends =(filters.SearchFilter,)
     search_fields = ('name', 'email',)
 
-class userLoginApView(ObtainAuthToken):
+class UserLoginApView(ObtainAuthToken):
     """Handle creating use authentication tokens."""
     renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES
-    
+
 
